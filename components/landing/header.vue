@@ -1,12 +1,16 @@
 <template>
     <nav class="sticky inset-0 z-10 block h-max w-full max-w-full rounded-none border border-white/80 bg-white bg-opacity-80 py-2 px-4 text-white shadow-md backdrop-blur-2xl backdrop-saturate-200 lg:px-8 lg:py-4">
         <div class="flex items-center justify-between text-gray-900">
-            <a
-            href="#"
-            class="mr-4 block cursor-pointer py-1.5 font-sans text-base font-medium leading-relaxed text-inherit antialiased"
-            >
-            RashtLug
-            </a>
+            <div class="flex">
+                <font-awesome-icon class="w-7" :icon="['fab', 'linux']" />
+                <a
+                href="#"
+                class="ml-4 mr-4 block cursor-pointer py-1.5 font-sans text-base font-medium leading-relaxed text-inherit antialiased"
+                >
+                RashtLug
+                </a>
+            </div>
+
             <ul class="mr-8 hidden items-center gap-6 lg:flex">
               <li class="block p-1 font-sans text-sm font-normal leading-normal text-inherit antialiased">
                   <a class="flex items-center" href="#">

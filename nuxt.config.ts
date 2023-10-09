@@ -4,10 +4,16 @@ export default defineNuxtConfig({
   css: [
     '~/assets/css/main.css',
   ],
+  
+  plugins: [
+    { src: '~/plugins/font-awesome.ts' },
+  ],
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
-  }
+  },
+
 })
